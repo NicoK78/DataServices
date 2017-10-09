@@ -15,9 +15,9 @@
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="85dp"
         tools:layout_editor_absoluteY="16dp"
+        android:layout_marginBottom="106dp"
         android:layout_above="@+id/editTextDate"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="16dp" />
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:id="@+id/button"
@@ -37,8 +37,27 @@
         android:focusable="false"
         android:hint="Date"
         android:inputType="textPersonName"
-        android:layout_centerVertical="true"
+        android:layout_above="@+id/button"
         android:layout_alignLeft="@+id/editTextCity"
-        android:layout_alignStart="@+id/editTextCity" />
+        android:layout_alignStart="@+id/editTextCity"
+        android:layout_marginBottom="98dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextCity"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp"
+        android:text="City" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextDate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="Date" />
 
 </RelativeLayout>
